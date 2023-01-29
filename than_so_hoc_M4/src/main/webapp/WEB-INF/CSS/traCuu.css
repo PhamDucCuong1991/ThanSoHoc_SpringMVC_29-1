@@ -1,0 +1,102 @@
+
+label {
+    color: blue;
+    font-size: larger;
+}
+
+input {
+    overflow: visible;
+    width: 230px;
+    height: 32px;
+    border-color: bisque;
+    outline-color: bisque;
+}
+
+
+
+h4 {
+    color: blue;
+}
+
+
+button {
+    background-color:aquamarine;
+    text-transform: none;
+    overflow: visible;
+    border-radius: 7px;
+    border-color:#d26e4b;
+    padding: 0.5em 1em;
+    cursor: pointer;
+
+}
+
+.HienThiThongSo {
+    padding-left: 50px;
+}
+
+p {
+    font-size: large;
+}
+
+.menu-chinh {
+    font-size: 20px;
+    color: midnightblue;
+}
+
+.menuDoc {
+    font-size: larger;
+    color: goldenrod;
+}
+
+marquee {
+    margin-top: 10px;
+}
+
+.divLeft {
+    width: 31%;
+    float: left;
+}
+
+.divCenter {
+    padding-left: 500px;
+    width: 30%;
+    float: left;
+}
+
+.divRight {
+
+    width: 30%;
+    float: left;
+}
+
+.divSuMenh {
+    background-color: bisque;
+
+}
+
+.table {
+    border-spacing: 0px;
+    position: fixed;
+    width: 210px;
+    border-color: #ececec;
+}
+
+.table2 {
+    width: 580px;
+    margin-bottom: 1em;
+    border-color: #ececec;
+    border-spacing: 0;
+}
+
+#logo img {
+    max-height: 60px;
+}
+
+
+h1, h2, h3, h4, h5, h6, .banner h1, .banner h2 {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-font {
+    color: #c01479;
+}

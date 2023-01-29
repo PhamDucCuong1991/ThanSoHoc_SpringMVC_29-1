@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="CSS/traCuu.css">
+
+</head>
+<head>
+  <title>Spring Gradle</title>
+</head>
+<body>
+
+<br/>
+
+<form align="center" action="/login" method="post" class="all-packages-container">
+  <h1>Email Login</h1>
+  <h4 style="color:red" th:text="${message}"></h4>
+
+  Your Email:  <input type="text" class="" name="email"><br>
+  Password&nbsp&nbsp  : <input type="password" class="" name="password"><br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <button type="submit" value="Validate" class="">Login</button>
+  <button type="button" value="" class="">forgot password</button>
+
+</form>
+</body>
+
+</html>
